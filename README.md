@@ -1,9 +1,3 @@
 # 🐱‍👤🐱‍👤implementasi-keamanan🔐-jaringan-menggunakan-port-security👔-dhcp-snoping-dan-acl-pada-topologi-ciscopkt✈
 
-Implementasi keamanan jaringan pada topologi skala enterprise sangat krusial untuk mencegah berbagai ancaman Layer 2 hingga Layer 3, seperti MAC Flooding, Rogue DHCP Server (DHCP Spoofing/Starvation), serta pembatasan akses antar-subnet atau perangkat sensitif.
-Berikut adalah panduan lengkap dan terstruktur untuk merancang, mengonfigurasi, dan memverifikasi Port Security, DHCP Snooping, serta Access Control List (ACL) menggunakan Cisco Packet Tracer.
-1. Rancangan Topologi Enterprise
-Gunakan topologi dasar enterprise yang umum di Cisco Packet Tracer dengan komposisi berikut:
-Router (Contoh: Router 0 / Cisco 2911): Berfungsi sebagai Default Gateway (Inter-VLAN Routing / Router-on-a-Stick) sekaligus sebagai DHCP Server.
-Switch Core/Distribution & Access Switch (Contoh: Switch 0 / Catalyst 2960): Menghubungkan perangkat akhir (End-Devices).
-End-Devices: Beberapa PC/Laptop untuk mewakili departemen berbeda (misal: VLAN 10 untuk HRD dan VLAN 20 untuk IT) serta PC penyerang (Rogue/Attacker untuk pengujian).
+
